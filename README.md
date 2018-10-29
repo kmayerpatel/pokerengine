@@ -33,17 +33,12 @@ There are a number of edge cases that our poker engine does not correctly handle
 
 ## Writing the Game
 
-Your version of hold'em poker should be implemented as a single HTML file called "poker.html" in a directory called a3 in your course web space. You should include via <script> elements the following JavaScript files in this order:
-  * [jquery-3.3.1.js](http://www.cs.unc.edu/~kmp/comp426fall18/jquery-3.3.1.js)
-    * This just loads jQuery which is required by the poker engine and which you might find generally useful to use yourself.
-  * [pokerEngine.js](http://www.cs.unc.edu/~kmp/comp426fall18/pokerEngine.js)
-    * This is the poker game engine. This file contains code for both the poker match as well as a "dumb" AI player that will simply
-      take a random action.
-  * Your code in a file called "poker.js"
-    * Put all of your code into a single JavaScript file called "poker.js" in your a3 directory.
-  
-Your interface should first provide a way for the user to indicate the total number of other opponents, a starting balance of chips per player (at least 100), and the name of the user's player. Using these values, you should create an AI player object for each opponent generating a unique name (for exampe, "AI1", "AI2", etc.) as an instance of the DumbAI class defined in pokerEngine.js. You should also create an instance of your own player object. This is something that you need to write. 
+Create a directory in your course web space called "a3".
 
+Copy all of the files from this directory into your a3 directory:
+http://www.cs.unc.edu/Courses/comp426-f18/poker
+
+ 
 
 # Javascript Poker engine
 
